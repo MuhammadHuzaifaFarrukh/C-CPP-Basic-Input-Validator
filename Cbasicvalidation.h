@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 //Function Declarations :
 
 //Variables :
@@ -433,5 +429,6 @@ int getche_string_char_array(char arr[])
 //printf("%c",2147483648) will treat the number as signed int and print ascii value of num mod 256 and print num mod 4294922296 at %d
 //printf("%d",'a') prints the ascii value 65
 //If you want to input an integer but not a character , use a loop , scanf %d and getchar to clean buffer and %d fpr input.If you dont use getchar , it will become infinite loop
+
 
 
