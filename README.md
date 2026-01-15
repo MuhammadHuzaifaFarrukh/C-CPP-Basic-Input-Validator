@@ -33,7 +33,8 @@ Simply include the desired header in your project:
 ```cpp
 #include "include/CPPbasicvalidation.h"
 
-int main() {
+int main()
+{
     int age;
     // Ensures the user enters a non-negative integer
     age = validateint_fullwithrangealso(age); 
