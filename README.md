@@ -31,8 +31,10 @@ A comprehensive collection of robust input validation functions for C and C++. T
 * Simply include the whole .cpp or .c file instead of header and compile only by using your file name (bad practic though).
 OR
 * Simply include the desired header in your project and compile with the command
- * gcc your_file_name.c a.c -o my_program (C).
- * g++ your_file_name.cpp a.cpp -o my_program (C++).
+```bash
+gcc your_file_name.c a.c -o my_program
+g++ your_file_name.cpp a.cpp -o my_program
+```
 
 ```cpp
 #include "CPPbasicvalidation.hpp"
