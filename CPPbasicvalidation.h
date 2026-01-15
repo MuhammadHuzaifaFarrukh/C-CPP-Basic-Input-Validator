@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -2966,53 +2967,4 @@ void string_getline_multiple_delimiters(std::string& str, int MAX_SIZE)
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-//For C (Can be used in C++) :
-//Char Data Type---:
-//Use %c for char data type inputs and You may print their real character values by %c or ASCII decimal values by %d
-// char ch = '-300 or 300 ' , put here only a single value or it will wrap around in very unexpected way printing first value from right side
-// char ch = 'a' , will print a on %c and 97 on %d
-// char ch = 97 , will print a on %c and 97 on %d
-// signed char ch = -5 will print -5 on %d and square root sign (-5 mod 256 = 251) on %c
-// signed char ch = out of range , or 128 prints 128 mod 256 = -128 at %d and ascii value at -128 mod 256 = 128 which is symbol
-// signed char ch = out of range , or -130 prints -130 mod 256 = 126 at %d and ascii value at 126 which is ~.
-// unsigned char ch = 251 prints 251 at %d and sq root symbol at %c.
-// unsigned char ch = out of range or -5 prints -5 mod 256 = 251 at %d and square root sign (-5 mod 256 = 251) at %c.
-// char is by default signed .
-
-//You may input char by getch or scanf(" %c" but getch is better in sentinel values.
-
-
-
-
-
-
-
-
-
-//Integer Data Type -----:
-//Use %d to input and display int data type
-//By using %c to print %d integer , it will print ascii value
-//By using %c to input integer , it will either print its ASCII value by %d or the character by %c
-// int a = 200 , will print 200 at %d and ascii value of 200 at %c.
-// int a = -150 , will print -150 at %d and ascii value of (-150 mod 256) %c
-// int a = 2147483648 will print 2147483648 % 4294922296 = -2147483648 at %d and 2147483648 mod 256 at %c.
-// unsigned int a = 150 will print 200 at %d and ascii value of 200 at %c.
-// unsigned int a = -5 will print -5 at %d , -5 mod 4294922296 at %u and -5 mod 256 = 251 square root sign at %c
-// int is signed by default
-
-//printf("%c",200) will treat 200 as signed int and print ascii value of 200 here.
-//printf("%c",2147483648) will treat the number as signed int and print ascii value of num mod 256 and print num mod 4294922296 at %d
-//printf("%d",'a') prints the ascii value 65
-//If you want to input an integer but not a character , use a loop , scanf %d and getchar to clean buffer and %d fpr input.If you dont use getchar , it will become infinite loop
 
