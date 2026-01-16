@@ -32,8 +32,8 @@ A comprehensive collection of robust input validation functions for C and C++. T
 OR
 * Simply include the desired header in your project and compile with the command (C and C++ respectively)
 ```bash
-gcc your_file_name.c a.c -o my_program
-g++ your_file_name.cpp a.cpp -o my_program
+gcc your_file_name.c Cbasicvalidation.c -o my_program
+g++ your_file_name.cpp CPPbasicvalidation.cpp -o my_program
 ```
 
 
