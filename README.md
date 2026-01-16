@@ -35,6 +35,7 @@ OR
 gcc your_file_name.c Cbasicvalidation.c -o my_program
 g++ your_file_name.cpp CPPbasicvalidation.cpp -o my_program
 ```
+Although it works by both methods , the choice depends on your design and style you prefer in working environment which makes ease for you.
 
 
 ### Example Program 
